@@ -6,7 +6,8 @@ categories: blog
 tags: [github,软件技术]
 description: some tips I gets from the study of reciting English words。
 ---
-
+[TOC levels=1,2 ]: # "大纲"
+[TOC]
 # 基本理解
 网站是一个各种软件包，以及项目管理工具，可以folk别人的代码，创建分支 branch，自己进行修改，pull提交。如果对方同意你的版本，就merge，将你的版本融合进代码里
 1.需要注册账号
@@ -106,7 +107,7 @@ description: some tips I gets from the study of reciting English words。
 [jekyll 部署 - 一些有的没的 - CSDN博客](https://blog.csdn.net/uselym/article/details/73608638)
 
 
-```mermaid
+{% mermaid %}
 graph LR
     读音 --> 拼写
     读音 --> 语义
@@ -114,7 +115,7 @@ graph LR
     语义 -.->  读音
     拼写 --> 语义
     拼写 -.-> 读音
-```
+{% endmermaid %}
 
 
 

@@ -32,6 +32,13 @@ permalink: pretty
 paginate: 8
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
+plugins:
+  - jekyll-mermaid
+
+mermaid:
+  src: '/js/mermaid.js'
+  src_config: '/js/mermaid_config.js'
+
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone: Asia/Shanghai
 
