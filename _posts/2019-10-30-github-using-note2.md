@@ -1,15 +1,5 @@
 ﻿---
 layout: post
-title: 英语背单词心得体会2
-date: 2019-10-30
-categories: blog
-tags: [语言学习,认知]
-description: some tips I gets from the study of reciting English words。
----
-
-
----
-layout: post
 title: github使用note
 date: 2019-10-30
 categories: blog
@@ -34,15 +24,17 @@ description: some tips I gets from the study of reciting English words。
 
 Jekyll是是一个简单、可扩展的静态站点生成器，文本内容支持md格式，github page 内部支持jekyll，所以只要通过它建立网站，上传到github库中，然后设定相关setting，即可。
 > http://jekyllcn.com/
-> 
+
 安装需求：
 1. ruby已安装
 2. ruby 命令行进去：
 > gem install jekyll bundler
+
 3. cd 进入目录创建网站,并构建服务
 > jekyll new myblog
 > cd myblog
 > bundle exec jekyll serve
+
 4. 在浏览器中打开 http://localhost:4000 网址
 ```
 如果把 $ jekyll serve 换成 $ jekyll serve –watch，则功能和jekyll serve相同，但是可以在服务启动的情况下修改内容并且同步更新。简单说就是，不用再次启动服务就可以刷新浏览器看修改过的内容。
@@ -59,6 +51,7 @@ Jekyll是是一个简单、可扩展的静态站点生成器，文本内容支�
 3. 在desktop客户端中打开库repository，右键，打开本地文件夹，
 4. 修改cmake文件，改为自己要的域名
 > cmake内容:showna.cnfeat.com
+
 5. 修改后，在desktop客户端，changes下方，点commit提交，然后点击右边的pushing，才将修改上传，反映在网页上
 6. .在网页上，点击setting，找到GitHub Pages，选择分支和主题，
 7. 邮箱收到邮件，访问博客网址，即可。
@@ -102,9 +95,10 @@ description: some tips I gets from the study of reciting English words。
 ---
 
 这里是博客正文。
+
+
 ```
-> 更改信息后，需要重新编译后，再上传，不然很多信息不更新！！
-> ruby 命令行进入目录 ，运行：bundle exec jekyll serve -watch
+>注意如果用记事本创建文件，保存的时候编码格式要从ascii改为utf8，不然网页不认那一篇
 
 [jekyll 部署 - 一些有的没的 - CSDN博客](https://blog.csdn.net/uselym/article/details/73608638)
 
