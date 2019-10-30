@@ -1,5 +1,15 @@
 ---
 layout: post
+title: 英语背单词心得体会2
+date: 2019-10-30
+categories: blog
+tags: [语言学习,认知]
+description: some tips I gets from the study of reciting English words。
+---
+
+
+---
+layout: post
 title: github使用note
 date: 2019-10-30
 categories: blog
