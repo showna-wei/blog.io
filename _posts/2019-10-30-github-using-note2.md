@@ -16,7 +16,7 @@ description: some tips I gets from the study of reciting English words。
 
 ## 客户端管理工具 Github Desktop
 > Github Desktop :官方工具
-> 
+
 只是版本管理功能，clone，或者folk后将库下载到电脑。运行修改需要自己使用IDE进行修改调试。 
 如果文件内容变化，可以利用Github Desktop，pull提交到自己库里
 
@@ -43,8 +43,9 @@ Jekyll是是一个简单、可扩展的静态站点生成器，文本内容支�
 ## 使用已有的博客模板 : cnfeat为例
 在public库的网页，setting中，有pages，选项。里面点选。
 利用别人已经写好的模版，使用md文件进行添加每日博文
->cnfeat库GitHub网址：https://github.com/cnfeat/blog.io
+>cnfeat库GitHub网址：https://github.com/cnfeat/blog.io 
 >相关介绍：[如何搭建一个独立博客——简明Github Pages与Hexo教程 - 简书](https://www.jianshu.com/p/05289a4bc8b2)
+
 ### 初始设置
 1. 打开github，点击folk，拷贝到自己项目，setting里面更改项目名
 2. 打开自己folk后的工程，点clone，客户端自动拷贝到本地
@@ -84,6 +85,7 @@ Your site's DNS settings are using a custom subdomain, showna.cnfeat.com, that's
 修改了
 增加博文：
 * 在blog.io文件夹下面新建md文件，前面带固定的prefix
+
 ```
 ---
 layout: post
@@ -98,8 +100,21 @@ description: some tips I gets from the study of reciting English words。
 
 
 ```
+
 >注意如果用记事本创建文件，保存的时候编码格式要从ascii改为utf8，不然网页不认那一篇
 
 [jekyll 部署 - 一些有的没的 - CSDN博客](https://blog.csdn.net/uselym/article/details/73608638)
+
+
+```mermaid
+graph LR
+    读音 --> 拼写
+    读音 --> 语义
+    语义 -.->  拼写
+    语义 -.->  读音
+    拼写 --> 语义
+    拼写 -.-> 读音
+```
+
 
 
