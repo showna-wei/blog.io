@@ -6,7 +6,6 @@ header-img: "img/zhihu.jpg"
 ---
 
 这个页面放置你的代表作。
-
       o__ __o      
      /v     v\     
     />       <\    
